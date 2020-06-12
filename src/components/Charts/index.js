@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react'
 import PlotLyGraphic from '../PlotLyGraph/index'
 import MultiLine from '../MultiLine/index'
+import ApexChart from '../ZoomableLineChart/index'
 import DyGraph from '../DyGraph/index'
 import DateRangePicker from 'react-bootstrap-daterangepicker'
 import { Dropdown } from 'react-bootstrap'
@@ -214,6 +215,7 @@ class Charts extends Component {
                     </div>
                     {/* <div className="chart-area"> */}
                     <MultiLine />
+                    {/* <ApexChart /> */}
                     {/* </div> */}
                   </div>
                 </div>

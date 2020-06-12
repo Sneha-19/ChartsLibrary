@@ -123,6 +123,26 @@ export default class Sidebar extends Component {
                     {/* Divider */}
                     <hr className="sidebar-divider" />
 
+                    
+                    {/* Nav Item - Charts Collapse Menu */}
+                    {/* <li className="nav-item">
+                        <button className="nav-link collapsed button-background" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true"
+                            aria-controls="collapseUtilities"
+                            onClick={() => this.toggleMenu('utilities')}>
+                            <i className="fas fa-fw fa-wrench"></i>
+                            <span>Utilities</span>
+                        </button>
+                        <div id="collapseUtilities" className={"collapse navbar-collapse " + showUtilities} aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+                            <div className="bg-white py-2 collapse-inner rounded">
+                                <h6 className="collapse-header">Custom Utilities:</h6>
+                                <NavLink className="collapse-item" to="/notFound">Colors</NavLink>
+                                <NavLink className="collapse-item" to="/notFound">Borders</NavLink>
+                                <NavLink className="collapse-item" to="/notFound">Animations</NavLink>
+                                <NavLink className="collapse-item" to="/notFound">Other</NavLink>
+                            </div>
+                        </div>
+                    </li> */}
+
                     {/* Nav Item - Charts */}
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/charts">
