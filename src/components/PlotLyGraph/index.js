@@ -135,5 +135,6 @@ export default class PlotLyGraphic extends React.Component {
         </div>
       </div>
     )
+    
   }
 }
