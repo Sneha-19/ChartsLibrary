@@ -16,7 +16,7 @@ import 'bootstrap-daterangepicker/daterangepicker.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Charts extends Component {
-  render () {
+  render() {
     const csvData = [
       ['firstname', 'lastname', 'email'],
       ['Ahmed', 'Tomi', 'ah@smthing.co.com'],
@@ -220,6 +220,20 @@ class Charts extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className='row'>
+              <div className='col-xl-6 col-lg-6'>
+                <div className='card shadow'>
+                  <div className='card-body'>
+
+                    {/* <div className="chart-area"> */}
+                    <ApexChart />
+                    {/* </div> */}
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
